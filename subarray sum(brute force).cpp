@@ -5,6 +5,7 @@ int main()
     int n;
     cin>>n;
     int a[n];
+    sum=0;
     for(int i=0;i<n;i++)
     {
         cin>>a[i];
@@ -15,8 +16,9 @@ int main()
         {
             for(int k=i;k<j;k++)
             {
-                cout<<a[k];
+                sum=sum+a[k]
             }
+            cout<<sum;
             cout<<endl;
         }
     }
